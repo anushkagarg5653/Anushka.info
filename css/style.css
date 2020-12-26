@@ -5,12 +5,18 @@
   font-weight: normal;
   font-style: normal; }
 
-/* =======================================================
-*
-* 	Template Style 
-*	Edit this section
-*
-* ======================================================= */
+*{
+  margin: 0;
+  padding: 0;
+}
+/* body{
+  background-image: linear-gradient(rgb(255, 255, 255),#59ccff);
+  height: 100vh;
+} */
+/* body {
+  background: linear-gradient(rgb(230, 227, 227), #b92121);
+} */
+
 body {
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 400;
@@ -84,7 +90,7 @@ figure {
   left: 0;
   overflow-y: scroll;
   z-index: 1001;
-  background: #fff;
+  background:rgb(41 40 40);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
@@ -139,7 +145,7 @@ figure {
       text-transform: uppercase;
       letter-spacing: 1px; }
       #colorlib-aside #colorlib-main-menu ul li a {
-        color: rgba(0, 0, 0, 0.4);
+        color: #fff5f5;
         text-decoration: none;
         position: relative;
         padding: 10px 0;
