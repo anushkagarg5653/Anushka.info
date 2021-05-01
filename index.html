@@ -1,375 +1,116 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-	<meta charset="utf-8">
+	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Anushka Garg</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="style.css" type="text/css">
-
-
-
-	<link rel="shortcut icon" href="favicon.ico">
-
-	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
-
-	<!-- All CSS File imports are here -->
-	<link rel="stylesheet" href="css/animate.css">
-	<link rel="stylesheet" href="css/icomoon.css">
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/flexslider.css">
-	<link rel="stylesheet" href="css/style.css">
-
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Component Libray</title>
+	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-	<div id="colorlib-page">
-		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
-		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
-			<h1 id="colorlib-logo"><a href="index.html"><span>Anushka</span></a></h1>
-			<nav id="colorlib-main-menu" role="navigation">
-				<ul>
-					<li class="colorlib-active"><a href="index.html">Home</a></li>
+	<h1>Anushka'a component library</h1>
+	<p>I am creating a library which would make all my projects look good and consistent.</p>
 
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</nav>
+	<hr>
 
-			<div class="colorlib-footer">
-				<ul>
-					<li><a target="_blank" href="https://github.com/anushkagarg5653"><i class="icon-github"></i></a>
-					</li>
-					<li><a target="_blank" href="https://www.instagram.com/___anu_shka__/"><i
-								class="icon-instagram"></i></a></li>
-					<li><a target="_blank" href="https://www.linkedin.com/in/anushka-garg-b6759318a/"><i
-								class="icon-linkedin2"></i></a></li>
-				</ul>
-			</div>
+	<h2>@typography</h2>
 
-		</aside>
+	<h1>This is the biggest heading</h1>
+	<h2>This is the second biggest heading</h2>
+	<p>Wrap up</p>
+	<small>This is relatively smaller text</small>
 
-		<div id="colorlib-main">
+	<hr>
 
-			<div class="colorlib-about">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-md-6">
-							<div class="about-img animate-box" data-animate-effect="fadeInLeft"
-								style="background-image: url(images/background.jpg);">
-								<div class="about-img-2 animate-box" data-animate-effect="fadeInRight"
-									style="background-image: url(images/anush.jpg);"></div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="about-desc">
-								<span class="heading-meta"></span>
-								<h3>ANUSHKA GARG</h3>
-								<p>Passionate individual with a keen interest in Machine Learning and Web Development. I
-									love to enhance and improve my skills on a daily basis and make sure to keep myself
-									updated with the latest technologies. I love solving real world problems.</p>
-							</div>
-							<div class="fancy-collapse-panel">
-								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+	<h2>@container</h2>
 
-									<div class="panel panel-default">
-										<div class="panel-heading" role="tab" id="headingTwo">
-											<h4 class="panel-title">
-												<a class="collapsed" data-toggle="collapse" data-parent="#accordion"
-													href="#collapseTwo" aria-expanded="false"
-													aria-controls="collapseTwo">About Me
-												</a>
-											</h4>
-										</div>
-										<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
-											aria-labelledby="headingTwo">
-											<div class="panel-body">
-												<p>I am a Student & Web Developer & Designer from SRM Institute of
-													Science and Technology, Kattankulathur. I am very passionate and
-													dedicated to my work</p>
+	<h3>fluid container</h3>
+	<div>This is a fluid container and it will go till the end</div>
 
-											</div>
-										</div>
-									</div>
-									<div class="panel panel-default">
-										<div class="panel-heading" role="tab" id="headingThree">
-											<h4 class="panel-title">
-												<a class="collapsed" data-toggle="collapse" data-parent="#accordion"
-													href="#collapseThree" aria-expanded="false"
-													aria-controls="collapseThree">My Skills
-												</a>
-											</h4>
-										</div>
-										<div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
-											aria-labelledby="headingThree">
-											<div class="panel-body">
-												<p>
-												<ul><strong>Hard Skills</strong></ul>
-												<ul>Python</ul>
-												<ul>HTML5</ul>
-												<ul>CSS</ul>
-												<ul>Basic Web Developers</ul>
-												<ul><strong>Soft Skills</strong></ul>
-												<ul>Leadership</ul>
-												<ul>Teamwork</ul>
-												<ul>Communication</ul>
-												<ul>Problem Solving</ul>
-												</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+	<h3>center container</h3>
+	<div>This is a centered container and it will go till the specified width</div>
 
-			<div class="colorlib-services">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3">
-							<span class="heading-meta"></span>
-							<h2 class="colorlib-heading animate-box" data-animate-effect="fadeInLeft">Currently Working
-							</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-6">
-							<div class="colorlib-feature animate-box" data-animate-effect="fadeInLeft">
-								<div class="colorlib-icon">
+	<hr>
 
-									<img src="images/HE.png" height="100px" width="100px" />
-								</div>
-								<div class="colorlib-text">
-									<h3><span style="font-weight:bold">SRM Hackerearth</span><br><br>Technical Head
-									</h3>
-									<p>November2020<br></p>
+	<h2>@Links</h2>
 
-								</div>
-							</div>
-						</div>
+	<a href="/">Primary Link</a>
+	<a href="/">Secondary Link</a>
 
-						<div class="row"> 
-							<div class="col-md-6">
-							<div class="colorlib-feature animate-box" data-animate-effect="fadeInLeft">
-								<div class="colorlib-icon">
-									<img src="images/DAA.png" height="100px" width="100px" />
-								</div>
-								<div class="colorlib-text">
-									<h3><span style="font-weight:bold">SRM Alumini Affairs</span><br><br>Student
-										Coordinator </h3>
-									<p>October2020<br></p>
+	<hr>
+	<h2>@lists</h2>
+	<h3>unordered list</h3>
+	<ul>
+		<li>Item One</li>
+		<li>Item Two</li>
+		<li>Item Three</li>
+	</ul>
 
-								</div>
-							</div>
-							<div class="col-md-6">
-									<div class="colorlib-feature animate-box" data-animate-effect="fadeInLeft">
-										<div class="colorlib-icon">
+	<h3>unordered inline list</h3>
+	<ul>
+		<li>inline Item One</li>
+		<li>inline Item Two</li>
+		<li>inline Item Three</li>
+	</ul>
 
-											<img src="images/hackClub.jpeg" height="100px" width="100px" />
-										</div>
-										<div class="colorlib-text">
-											<h3><span style="font-weight:bold">Hack Club</span><br><br>Mentor </h3>
-											<p>October2020<br></p>
-										</div>
-									</div>
-								</div>
-								<!-- <div class="row">  -->
-							 <!-- <div class="col-md-6"> -->
-								<div class="colorlib-feature animate-box" data-animate-effect="fadeInLeft">
-									<div class="colorlib-icon">
+	<h3>reverse orderes list</h3>
+	<ol>
+		<li>milk</li>
+		<li>eggs</li>
+		<li>milk</li>
+	</ol>
 
-										<img src="images/DSC.jpeg" height="100px" width="100px" />
-									</div>
-									<div class="colorlib-text">
-										<h3><span style="font-weight:bold">Data Science Community
-												SRM</span><br><br>Machine Learning Researcher</h3>
-										<p>July2020<br></p>
-									</div>
-								</div>
-							</div>
+	<hr>
 
-						</div>
+	<h2>@nav</h2>
+	<nav>
+		<div>IAmBrand</div>
+		<ul>
+			<li>
+				<a href="/">Home</a>
+			</li>
+			<li>
+				<a href="/">projects</a>
+			</li>
+			<li>
+				<a href="/">about</a>
+			</li>
+		</ul>
+	</nav>
 
-					</div>
-				</div>
-				<!--</div> -->
+	<hr>
 
-				
-				<div class="colorlib-blog">
-					<div class="container-fluid">
-						<div class="row">
-							<div class="col-md-6 col-md-offset-3 col-md-pull-3">
-								<span class="heading-meta">What I developed?</span>
-								<h2 class="colorlib-heading animate-box" data-animate-effect="fadeInLeft">Projects</h2>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-								<div class="blog-entry">
-									<a href="https://lane-detection-webapp.herokuapp.com/" class="blog-img"><img
-											src="images/lane.jpg" class="img-responsive" alt="lane-detection"></a>
-									<div class="desc">
-										<h3><a href="https://lane-detection-webapp.herokuapp.com/">Lane-Detection</a>
-										</h3>
-										<p>Detecting lane lines in video and images of roads using the Computer Vision.
-											Following lane lines is one of the most important traffic rules, so
-											detecting them is a significant task while building models for autonomous
-											vehicle.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-								<div class="blog-entry">
-									<a href="https://guidemee.netlify.app/" class="blog-img"><img src="images/guide.png"
-											class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-									<div class="desc">
+	<h2>@header</h2>
+	<header>
+		<img src="images/profile.svg" alt="">
+		<h1>Heading inside hero</h1>
+	</header>
 
-										<h3><a href="https://guidemee.netlify.app/">Guide-Me</a></h3>
-										<p>GuideMe is a webapp which guides students to choose the field which matches
-											their interest, it also provides a discussion platform and resources for the
-											same.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-								<div class="blog-entry">
-									<a href="blog.html" class="blog-img"><img src="images/corona.jpg"
-											class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-									<div class="desc">
+	<hr>
+	<h2>@section</h2>
+	<section>
+		<h3>@white section</h3>
+		<p>This will have white background</p>
+	</section>
 
-										<h3><a href="blog.html">Coronavirus Dashboard</a></h3>
-										<p>Created an interactive Dashboard using Javascript and Mapbox for plotting
-											Coronavirus cases on World Map</p>
-									</div>
-								</div>
-							</div>
+	<section>
+		<h3>off white section</h3>
+		<p>This will have gray background</p>
+	</section>
 
-						</div>
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/customer.jpg"
-										class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-								<div class="desc">
+	<hr>
 
-									<h3><a href="blog.html">Customer-Segmentation</a></h3>
+	<h2>@footer</h2>
 
-									<p>Customer segmentation is one method to know who are our loyal customers and who
-										are our one time visitors. This project is all about how to perform Customer
-										Segmentaion using machine learning.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/blogSpot.png"
-										class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-								<div class="desc">
-
-									<h3><a href="blog.html">Blog-Spot</a></h3>
-									<p>This is a website created for publishing blogs.</p>
-								</div>
-							</div>
-						</div>
-
-
-					</div>
-				</div>
-
-
-
-
-				<div class="colorlib-services">
-					<div class="container-fluid">
-						<div class="row">
-							<div class="col-md-6 col-md-offset-3 col-md-pull-3">
-								<span class="heading-meta"></span>
-								<h2 class="colorlib-heading animate-box" data-animate-effect="fadeInLeft">Education</h2>
-							</div>
-						</div>
-						<div class="row">
-
-
-							<div class="col-md-6">
-
-								<div class="colorlib-feature animate-box" data-animate-effect="fadeInLeft">
-									<div class="colorlib-icon">
-										<img src="images/srm-newest-logo.png" height="100px" width="100px" />
-									</div>
-									<div class="colorlib-text">
-										<h3><span style="font-weight:bold">SRM Institute of Science and
-												Technology</span><br><br>B.Tech - Computer Science Engineering With
-											Specialisation In Computer Networking </h3>
-										<p>2019 - 2023</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-6">
-
-								<div class="colorlib-feature animate-box" data-animate-effect="fadeInLeft">
-									<div class="colorlib-icon">
-										<img src="images/avm.png" height="100px" width="100px" />
-									</div>
-									<div class="colorlib-text">
-										<h3><span style="font-weight:bold">AVM Senior Secondary school</span><br><br>
-										</h3>
-										<p>2018 - 2019</p>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-md-6">
-
-								<div class="colorlib-feature animate-box" data-animate-effect="fadeInLeft">
-									<div class="colorlib-icon">
-										<img src="images/st.png" height="100px" width="100px" />
-									</div>
-									<div class="colorlib-text">
-										<h3><span style="font-weight:bold">ST. MARY'S SER. SEC SCHOOL,
-												BHOPAL</span><br><br>CBSE-2018</h3>
-										<p></p>
-									</div>
-								</div>
-							</div>
-
-						</div>
-					</div>
-				</div>
-
-
-				<div id="get-in-touch" class="colorlib-bg-color">
-					<div class="colorlib-narrow-content">
-						<div class="row">
-							<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-								<h2>Get in Touch!</h2>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
-								data-animate-effect="fadeInLeft">
-								<p class="colorlib-lead"></p>
-								<p><a href="contact.html" class="btn btn-primary btn-learn">Contact me!</a></p>
-							</div>
-
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-
-		<script src="js/jquery.min.js"></script>
-
-		<script src="js/jquery.easing.1.3.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/jquery.waypoints.min.js"></script>
-		<script src="js/jquery.flexslider-min.js"></script>
-		<script src="js/sticky-kit.min.js"></script>
-
-
-		<!-- MAIN JS File -->
-		<script src="js/main.js"></script>
+	<footer>
+		<div>Some small heading inside footer</div>
+		<ul>
+			<li>socialOne</li>
+			<li>socialTwo</li>
+		</ul>
+	</footer>
 
 </body>
 
